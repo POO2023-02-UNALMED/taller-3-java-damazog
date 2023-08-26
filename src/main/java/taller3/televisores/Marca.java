@@ -8,7 +8,7 @@ public class Marca {
 	}
 	
 	public String getMarca() {
-		return this.Marca
+		return this.nombre;
 	}
 	
 	public void setMarca(String nombre) {

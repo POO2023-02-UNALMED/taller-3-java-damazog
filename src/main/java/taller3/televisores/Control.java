@@ -1,5 +1,7 @@
 package taller3.televisores;
 
+
+
 public class Control {
 	private TV tv;
 	
@@ -37,5 +39,6 @@ public class Control {
 	 
 	public void enlazar(TV tv) {
 		 this.tv=tv;
+		 tv.control=this;
 	}
 }
