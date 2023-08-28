@@ -20,7 +20,7 @@ public class TV {
 	}
 	
 	public void setMarca(String nombre) {
-		this.marca.setMarca(nombre);
+		this.marca.setNombre(nombre);
 	}
 
 	public int getCanal() {
