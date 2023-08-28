@@ -19,8 +19,8 @@ public class TV {
 		return marca; 
 	}
 	
-	public void setMarca(String nombre) {
-		this.marca.setNombre(nombre);
+	public void setMarca(Marca marca) {
+		this.marca=marca;
 	}
 
 	public int getCanal() {
