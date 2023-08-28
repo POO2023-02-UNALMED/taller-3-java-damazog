@@ -69,8 +69,8 @@ public class TV {
     }
 
    
-    public void setNumTV(int numTV) {
-        TV.numTV = numTV;
+	public void setNumTV(int newNumTV) {
+	    numTV = newNumTV;
     }
 
     public void turnOn() {
