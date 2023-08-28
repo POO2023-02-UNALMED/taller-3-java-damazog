@@ -1,7 +1,5 @@
 package taller3.televisores;
 
-import taller3.televisores.Marca; //me gustaria mas especifico
-
 public class TV {
 	private Marca marca;
 	private int canal = 1;
@@ -18,11 +16,11 @@ public class TV {
 	}
 	
 	public Marca getMarca() {
-		return marca; //esto que gettead? da toda la info de Marca?
+		return marca; 
 	}
 	
 	public void setMarca(String nombre) {
-		this.marca.nombre=nombre;
+		this.marca.setMarca(nombre);
 	}
 
 	public int getCanal() {
