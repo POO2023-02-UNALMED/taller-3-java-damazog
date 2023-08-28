@@ -64,12 +64,12 @@ public class TV {
 		this.control = control;
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
         return numTV;
     }
 
    
-	public void setNumTV(int newNumTV) {
+	public static void setNumTV(int newNumTV) {
 	    numTV = newNumTV;
     }
 
